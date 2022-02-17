@@ -6,4 +6,8 @@ public class Decespugliatore extends Macchinario {
         super(marcaMacchinario);
         this.accensioneElettronica = accensioneElettronica;
     }
+
+    public String toString(){
+        return super.toString() + accensioneElettronica;
+    }
 }

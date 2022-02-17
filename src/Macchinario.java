@@ -1,4 +1,4 @@
-public class Macchinario {
+abstract public class Macchinario {
 
     protected static int numeroOrdine;
     protected String marcaMacchinario;
@@ -8,5 +8,9 @@ public class Macchinario {
         numeroOrdine++;
         this.marcaMacchinario = marcaMacchinario;
         costoTotRiparazione = 0;
+    }
+
+    public String toString(){
+        return numeroOrdine + marcaMacchinario + costoTotRiparazione;
     }
 }

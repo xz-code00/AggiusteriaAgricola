@@ -6,4 +6,9 @@ public class Tosaerba extends Macchinario {
         super(marcaMacchinario);
         this.nRuote = nRuote;
     }
+
+    public String toString(){
+        return super.toString() + nRuote;
+    }
+
 }
