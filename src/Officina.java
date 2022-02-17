@@ -21,5 +21,15 @@ public class Officina {
 
     }
 
+    public String toString(){
 
+        String str = "";
+
+        for(Nodo p = head; p != null; p = p.getLink()) {
+            str = p.getInfo() + " ";
+        }
+        return str;
+        }
 }
+
+
